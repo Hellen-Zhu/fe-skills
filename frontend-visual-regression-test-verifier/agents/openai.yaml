@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Visual Regression Test Verifier"
+  short_description: "Generate and verify visual regression tests"
+  default_prompt: "Use $frontend-visual-regression-test-verifier to add and verify visual regression coverage for this UI."
+
+policy:
+  allow_implicit_invocation: true
