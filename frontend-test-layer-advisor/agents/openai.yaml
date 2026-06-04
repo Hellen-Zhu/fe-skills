@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Test Layer Advisor"
+  short_description: "Decide the right frontend test layer"
+  default_prompt: "Use $frontend-test-layer-advisor to decide which frontend test layer should cover these validation points."
+
+policy:
+  allow_implicit_invocation: true

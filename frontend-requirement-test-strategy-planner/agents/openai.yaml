@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Requirement Test Strategy Planner"
+  short_description: "Plan frontend test strategy from requirements"
+  default_prompt: "Use $frontend-requirement-test-strategy-planner to turn this requirement into a phase-aware frontend test strategy."
+
+policy:
+  allow_implicit_invocation: true

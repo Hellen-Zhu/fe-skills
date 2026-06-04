@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Test Coverage Reconciler"
+  short_description: "Reconcile frontend test coverage by layer"
+  default_prompt: "Use $frontend-test-coverage-reconciler to map acceptance criteria to existing frontend test coverage."
+
+policy:
+  allow_implicit_invocation: true

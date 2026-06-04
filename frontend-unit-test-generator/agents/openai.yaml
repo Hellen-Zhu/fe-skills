@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Unit Test Generator"
+  short_description: "Generate frontend unit tests for pure logic"
+  default_prompt: "Use $frontend-unit-test-generator to add unit tests for this frontend logic."
+
+policy:
+  allow_implicit_invocation: true
