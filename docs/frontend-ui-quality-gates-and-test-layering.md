@@ -366,6 +366,18 @@ build storybook / deploy preview
 只有真实环境链路重要时，才放 E2E。
 ```
 
+代码形态判断：
+
+```text
+没有 render、没有 DOM、没有 userEvent/fireEvent、没有 router/store/API mock：UT
+
+render 单个组件，测用户交互和可见结果：Component Test
+
+render 页面，带 router/store/API mock，测页面协作：Integration Test
+
+真实浏览器 + 真实环境 + 跨页面业务闭环：E2E
+```
+
 ## 落地顺序
 
 建议按下面顺序推进：
