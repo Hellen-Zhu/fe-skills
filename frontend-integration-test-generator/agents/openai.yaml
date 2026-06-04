@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Integration Test Generator"
+  short_description: "Generate page-level frontend integration tests"
+  default_prompt: "Use $frontend-integration-test-generator to add page-level integration tests for this frontend feature."
+
+policy:
+  allow_implicit_invocation: true

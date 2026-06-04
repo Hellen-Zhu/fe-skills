@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Component Test Generator"
+  short_description: "Generate focused frontend component tests"
+  default_prompt: "Use $frontend-component-test-generator to add behavior-focused component tests for this UI component."
+
+policy:
+  allow_implicit_invocation: true
